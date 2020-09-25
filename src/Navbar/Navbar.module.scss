@@ -1,0 +1,21 @@
+.Navbar {
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  .logoText {
+    margin: 0;
+    width: 100px;
+  }
+  .nav ul {
+    display: flex;
+    li {
+      margin-left: 1rem;
+      list-style: none;
+    }
+  }
+}
+.scrolled {
+  display: none;
+}

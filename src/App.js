@@ -1,10 +1,15 @@
 import React from "react";
+import Navbar from "./Navbar";
+import Header from "./Header";
+import Content from "./Content";
 import "./App.css";
 
 function App() {
   return (
     <div>
-      <h1>AMANO</h1>
+      <Navbar />
+      <Header />
+      <Content />
     </div>
   );
 }

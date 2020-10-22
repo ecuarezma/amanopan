@@ -1,3 +1,18 @@
+.Header {
+  p {
+    margin: 1rem;
+    text-align: center;
+  }
+}
+
 .Logo {
+  margin: 2rem auto;
+  width: 75%;
   fill: #801c29;
+  @media (min-width: 750px) {
+    width: 60%;
+  }
+  @media (min-width: 1000px) {
+    width: 500px;
+  }
 }

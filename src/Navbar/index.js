@@ -30,7 +30,7 @@ const Navbar = () => {
       </div>
       <div className={classes.nav}>
         <ul>
-          <li>About</li>
+          {/* <li>About</li> */}
           <li>Store</li>
         </ul>
       </div>

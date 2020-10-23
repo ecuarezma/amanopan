@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faInstagram } from "@fortawesome/free-brands-svg-icons";
 import { ReactComponent as LogoText } from "../assets/logo/amano_text.svg";
 
 import classes from "./Navbar.module.scss";
@@ -31,8 +33,15 @@ const Navbar = () => {
       <div className={classes.nav}>
         <ul>
           {/* <li>About</li> */}
-          <li>Store</li>
+          <li>
+            <a href="https://amano-pan.square.site/">Store</a>
+          </li>
         </ul>
+      </div>
+      <div className={classes.instaLogo}>
+        <a href="https://www.instagram.com/amano_pan/">
+          <FontAwesomeIcon icon={faInstagram} />
+        </a>
       </div>
     </nav>
   );

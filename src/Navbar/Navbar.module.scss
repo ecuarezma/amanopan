@@ -3,21 +3,33 @@
   top: 0;
   width: 100%;
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-end;
   align-items: center;
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
   .logoText {
     opacity: 0;
-    margin: 0;
+    margin: 0 auto 0 1rem;
     width: 100px;
   }
   .nav ul {
     display: flex;
     li {
-      margin-left: 1rem;
+      margin: 1rem;
       list-style: none;
     }
+  }
+  .instaLogo {
+    margin: 1rem;
   }
 }
 .scrolled {
   display: none;
+}
+@media (min-width: 1000px) {
+  .Navbar {
+    font-size: 1.5rem;
+  }
 }

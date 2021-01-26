@@ -30,14 +30,6 @@ const Navbar = () => {
       <div className={classes.logoText}>
         <LogoText />
       </div>
-      <div className={classes.nav}>
-        <ul>
-          {/* <li>About</li> */}
-          <li>
-            <a href="https://amano-pan.square.site/">Store</a>
-          </li>
-        </ul>
-      </div>
       <div className={classes.instaLogo}>
         <a href="https://www.instagram.com/amano_pan/">
           <FontAwesomeIcon icon={faInstagram} />

@@ -7,13 +7,15 @@ const Content = () => {
     {/* <ul>
       <li><a href="https://cashdrop.biz/amanopan">PREORDER ONLINE</a></li>
     </ul> */}
-    
-    <div className={classes.Video}>
+    <div className={classes.Wrapper}>
+      <div className={classes.Video}>
       <ReactPlayer
-        width="90vw"
+        width="100%"
         url="https://vimeo.com/555433247"
       />
+      </div>
     </div>
+    
     
     </div>;
 };

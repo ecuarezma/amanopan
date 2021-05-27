@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "./Navbar";
 import Header from "./Header";
 import Content from "./Content";
+// import Footer from "./Footer";
 import "./App.css";
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <Navbar />
       <Header />
       <Content />
+      {/* <Footer /> */}
     </div>
   );
 }

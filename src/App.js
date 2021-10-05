@@ -1,17 +1,17 @@
 import React from "react";
-import Navbar from "./Navbar";
+// import Navbar from "./Navbar";
 import Header from "./Header";
 import Content from "./Content";
-// import Footer from "./Footer";
+import Footer from "./Footer";
 import "./App.css";
 
 function App() {
   return (
     <div>
-      <Navbar />
+      {/* <Navbar /> */}
       <Header />
       <Content />
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }

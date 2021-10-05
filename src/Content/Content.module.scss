@@ -1,8 +1,11 @@
 .Content {
-  display: flex;
   flex-flow: column, nowrap;
   justify-content: center;
+  align-items: center;
   margin: 0;
+  font-family: "Roboto";
+  color: rgb(91, 21, 21);
+
   ul {
     padding: 0;
     margin: auto;
@@ -13,7 +16,7 @@
     text-align: center;
     a {
       font-size: 1.5rem;
-      font-family: futura;
+      font-family: "Roboto", sans-serif;
       color: rgb(0, 4, 118);
       text-decoration: none;
       &:hover {

@@ -4,13 +4,13 @@
   width: 100%;
   display: flex;
   align-items: center;
+  justify-content: center;
   a {
     text-decoration: none;
     color: inherit;
   }
   .logoText {
     opacity: 0;
-    margin: 0 auto 0 1rem;
     width: 100px;
   }
   .nav ul {
@@ -21,7 +21,7 @@
     }
   }
   .instaLogo {
-    font-size: 2rem;
+    font-size: 2.5rem;
     margin: 1rem;
     color: rgb(0, 4, 118);
   }

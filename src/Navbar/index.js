@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faInstagram } from "@fortawesome/free-brands-svg-icons";
+import { faTwitter } from "@fortawesome/free-brands-svg-icons";
 import { ReactComponent as LogoText } from "../assets/logo/amano_text.svg";
 
 import classes from "./Navbar.module.scss";
@@ -27,12 +28,17 @@ const Navbar = () => {
 
   return (
     <nav className={`${classes.Navbar} ${isScrolled && classes.scrolled}`}>
-      <div className={classes.logoText}>
+      {/* <div className={classes.logoText}>
         <LogoText />
-      </div>
+      </div> */}
       <div className={classes.instaLogo}>
         <a href="https://www.instagram.com/amano_pan/">
           <FontAwesomeIcon icon={faInstagram} />
+        </a>
+      </div>
+      <div className={classes.instaLogo}>
+        <a href="https://www.twitter.com/amano_baker">
+          <FontAwesomeIcon icon={faTwitter} />
         </a>
       </div>
     </nav>

@@ -6,6 +6,12 @@
   font-family: "Roboto";
   color: rgb(91, 21, 21);
 
+  .Video{
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+  }
+
   ul {
     padding: 0;
     margin: auto;
@@ -23,10 +29,5 @@
         color: rgb(249, 165, 22);
       }
     }
-  }
-  .Wrapper {
-    // display: flex;
-    // justify-content: center;
-    width: 100%;
   }
 }
